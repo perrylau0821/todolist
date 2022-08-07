@@ -1,0 +1,117 @@
+body, button, input {
+  background-color: #131313;
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+button {
+  padding: 6px 11px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #131313;
+  box-shadow:  12px 12px 12px #0c0c0c,
+             -3px -3px 12px #1f1f1f;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  padding: 6px 11px;
+  border: none;
+  /* outline: none; */
+  caret-color: #555555;
+  border-radius: 3px;
+  background: #131313;
+  box-shadow:  12px 12px 12px #0c0c0c,
+             -3px -3px 12px #1f1f1f;
+}
+
+table, th, td{
+  /* border: 1px solid blue; */
+  border-collapse: collapse;
+}
+
+th, td {
+  height: 30px;
+  width: 100px;
+  padding: 5px 14px;
+  text-align: left;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  /* table-layout: fixed; */
+}
+
+
+::placeholder {
+  color: #333333;
+}
+
+.action {
+  text-align: right;
+  width: 20px;
+  white-space: nowrap;
+}
+
+.container {
+  /* margin-top: calc(20vh - 20px); */
+  margin: calc(20vh - 20px) auto ;
+  width: 70vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.divider {
+  margin: 30px;
+}
+
+.error-message {
+  color: #555555;
+  margin-top: 16px;
+  letter-spacing: -.5px;
+
+  animation: slide 2s linear 0s infinite alternate
+  /* font-size: 1px; */
+  /* font-weight: bold; */
+}
+
+@keyframes slide {
+  0%   {transform: translateX(5vw)}
+  100% {transform: translateX(-5vw)}
+}
+
+.form {
+  width: 80%;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.table-container {
+  /* background-color: red; */
+  /* border: 1px solid yellow; */
+  margin-top: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+
+  /* background: #131313;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid #333333; */
+}
+
+.stuff {
+  white-space: nowrap;
+}
